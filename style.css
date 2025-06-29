@@ -1,60 +1,58 @@
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <style>
-    /* Reset some default styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+/* Base styles for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
-      padding: 20px;
-    }
+/* Headings */
+h1, h2, h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
 
-    h1, h2, h3 {
-      margin-bottom: 10px;
-      text-align: center;
-    }
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    p {
-      margin-bottom: 15px;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
 
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
 
-    a:hover {
-      color: #0056b3;
-      text-decoration: underline;
-    }
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
 
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 20px auto;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-  </style>
-</head>
+/* Content wrapper */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
