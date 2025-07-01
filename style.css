@@ -108,10 +108,9 @@ img {
   border: none;
   color: white;
   cursor: pointer;
-  display: none; /* hidden by default (shown on small screens) */
+  display: none; /* hidden by default (desktop) */
 }
 
-/* Nav links (default visible on desktop) */
 .nav-links {
   list-style: none;
   display: flex;
@@ -130,7 +129,7 @@ img {
   color: #FFD700;
 }
 
-/* Responsive: show pancake menu on small screens */
+/* Responsive for mobile */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -143,7 +142,7 @@ img {
     position: absolute;
     top: 60px;
     right: 20px;
-    width: 150px;
+    width: 160px;
     padding: 10px;
     border-radius: 8px;
   }
